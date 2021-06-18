@@ -58,4 +58,15 @@
       </plugin>
     </plugins>
   </build>
+<distributionManagement>
+  <snapshotRepository>
+    <id>Mavensnapshot</id>
+    <url>http://18.117.185.140:8081/nexus/content/repositories/Mavensnapshot</url>
+  </snapshotRepository>
+  <repository>
+    <id>Mavenhost</id>
+    <url>http://18.117.185.140:8081/nexus/content/repositories/Mavenhost</url>
+  </repository>
+</distributionManagement>
 </project>
+
